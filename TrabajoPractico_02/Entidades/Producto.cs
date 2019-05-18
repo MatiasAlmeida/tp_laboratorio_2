@@ -30,7 +30,7 @@ namespace Entidades_2018
         /// <param name="patente"> Código de barras del producto. </param>
         /// <param name="marca"> Marca del producto. </param>
         /// <param name="color"> Color del empaque del producto. </param>
-        protected Producto(string patente, EMarca marca, ConsoleColor color)
+        public Producto(string patente, EMarca marca, ConsoleColor color)
         {
             this.marca = marca;
             this.codigoDeBarras = patente;
