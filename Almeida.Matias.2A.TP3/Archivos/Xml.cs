@@ -11,6 +11,12 @@ namespace Archivos
 {
     public class Xml <T> : IArchivo <T>
     {
+        /// <summary>
+        /// Metodo heredado de IArchivo para guardar un archivo de texto en .xml.
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         public bool Guardar(string archivo, T datos)
         {
             bool flag = false;
@@ -31,7 +37,12 @@ namespace Archivos
 
             return flag;
         }
-
+        /// <summary>
+        /// Metodo heredado de IArchivo para leer un archivo de texto en .xml.
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         public bool Leer(string archivo, out T datos)
         {
             bool flag = false;

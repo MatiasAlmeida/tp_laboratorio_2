@@ -10,6 +10,12 @@ namespace Archivos
 {
     public class Texto : IArchivo <string>
     {
+        /// <summary>
+        /// Metodo heredado de IArchivo para guardar un archivo de texto en .txt.
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         public bool Guardar(string archivo, string datos)
         {
             bool flag = false;
@@ -30,6 +36,12 @@ namespace Archivos
             return flag;
         }
 
+        /// <summary>
+        /// Metodo heredado de IArchivo para leer un archivo de texto en .txt.
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         public bool Leer(string archivo, out string datos)
         {
             bool flag = false;

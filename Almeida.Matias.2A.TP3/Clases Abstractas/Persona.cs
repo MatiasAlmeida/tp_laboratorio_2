@@ -13,61 +13,95 @@ namespace EntidadesAbstractas
         private int dni;
         private ENacionalidad nacionalidad;
         private string nombre;
-
+        /// <summary>
+        /// Enumerados para el atributo nacionalidad de Persona.
+        /// </summary>
         public enum ENacionalidad
         {
             Argentino,
             Extranjero
         }
-
+        /// <summary>
+        /// Propiedad de lectura y escitura del atributo apellido.
+        /// </summary>
         public string Apellido
         {
             get { return this.apellido; }
             set { this.apellido = ValidarNombreApellido(value); }
         }
-
+        /// <summary>
+        /// Propiedad de lectura y escitura del atributo dni.
+        /// </summary>
         public int DNI
         {
             get { return this.dni; }
             set { this.dni = ValidarDni(this.Nacionalidad, value); }
         }
-
+        /// <summary>
+        /// Propiedad de lectura y escitura del atributo nacionalidad.
+        /// </summary>
         public ENacionalidad Nacionalidad
         {
             get { return this.nacionalidad; }
             set { this.nacionalidad = value; }
         }
-
+        /// <summary>
+        /// Propiedad de lectura y escitura del atributo nombre.
+        /// </summary>
         public string Nombre
         {
             get { return this.nombre; }
             set { this.nombre = ValidarNombreApellido(value); }
         }
-
+        /// <summary>
+        /// Propiedad de solo escitura del atributo dni.
+        /// </summary>
         public string StringToDNI
         {
             set { this.DNI = ValidarDni(this.Nacionalidad, value); }
         }
-
+        /// <summary>
+        /// Constructor de instancia y por default de Persona.
+        /// </summary>
         public Persona() { }
-
+        /// <summary>
+        /// Constructor de instancia con parametros de Persona.
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
         {
             this.Apellido = apellido;
             this.Nombre = nombre;
             this.Nacionalidad = nacionalidad;
         }
-
+        /// <summary>
+        /// Constructor de instancia con parametros de Persona.
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {
             this.DNI = dni;
         }
-
+        /// <summary>
+        /// Constructor de instancia con parametros de Persona.
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {
             this.StringToDNI = dni;
         }
-
+        /// <summary>
+        /// Override del ToString() con los datos de Persona.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
@@ -79,12 +113,22 @@ namespace EntidadesAbstractas
 
             return sb.ToString();
         }
-
+        /// <summary>
+        /// Valida que el dni sea un numero entero de 8 caracteres.
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
             return this.ValidarDni(nacionalidad, dato.ToString());
         }
-
+        /// <summary>
+        /// Valida que el dni sea un numero entero de 8 caracteres.
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             // Lo mismo que para el metodo anterior.
@@ -125,7 +169,11 @@ namespace EntidadesAbstractas
 
             return aux;
         }
-
+        /// <summary>
+        /// Valida que el nombre y el apellido tengan los caracteres que correspondan.
+        /// </summary>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private string ValidarNombreApellido(string dato)
         {
             if (!dato.Any(char.IsLetter))

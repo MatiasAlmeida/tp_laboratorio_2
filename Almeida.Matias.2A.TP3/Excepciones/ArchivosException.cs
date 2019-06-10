@@ -8,6 +8,10 @@ namespace Excepciones
 {
     public class ArchivosException : Exception
     {
+        /// <summary>
+        /// Constructor que llama a Exception con un mensaje de InnerException.
+        /// </summary>
+        /// <param name="innerException"></param>
         public ArchivosException(Exception innerException) : base(innerException.Message) { }
     }
 }

@@ -8,6 +8,9 @@ namespace TestUnitario
     [TestClass]
     public class TestUnitarioValNull
     {
+        /// <summary>
+        /// Test unitario para validar que las listas de Universidad no sean nulas.
+        /// </summary>
         [TestMethod]
         public void ValidarListasNoNulasUniversidad()
         {

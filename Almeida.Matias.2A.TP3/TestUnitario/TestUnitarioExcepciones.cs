@@ -9,6 +9,9 @@ namespace TestUnitario
     [TestClass]
     public class TestUnitarioExcepciones
     {
+        /// <summary>
+        /// Test unitario para la exception ArchivoException.
+        /// </summary>
         [TestMethod]
         public void ValidarArchivosException()
         {
@@ -26,6 +29,9 @@ namespace TestUnitario
             }
         }
 
+        /// <summary>
+        /// Test unitario para la excepcion NacionalidadInvalidadException.
+        /// </summary>
         [TestMethod]
         public void ValidarNacionalidadException()
         {

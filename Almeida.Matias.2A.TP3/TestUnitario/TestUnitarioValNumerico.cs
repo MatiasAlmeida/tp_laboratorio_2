@@ -10,7 +10,7 @@ namespace TestUnitario
     public class TestUnitarioValNumerico
     {
         /// <summary>
-        /// 
+        /// Test unitario para validar que el atributo dni sea entero.
         /// </summary>
         [TestMethod]
         public void ValidarIntDni()
