@@ -1,0 +1,7 @@
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TP N°4\Almeida.Matias.2A.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TP N°4\Almeida.Matias.2A.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TP N°4\Almeida.Matias.2A.TP4\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TP N°4\Almeida.Matias.2A.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TP N°4\Almeida.Matias.2A.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TP N°4\Almeida.Matias.2A.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TP N°4\Almeida.Matias.2A.TP4\Entidades\obj\Debug\Entidades.pdb
