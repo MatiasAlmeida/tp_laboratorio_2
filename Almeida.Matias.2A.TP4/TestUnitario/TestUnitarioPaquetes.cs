@@ -8,7 +8,7 @@ namespace TestUnitario
     [TestClass]
     public class TestUnitarioPaquetes
     {
-        [TestMethod]
+        /*[TestMethod]
         public void VerificarExistenciaArchivoDeTexto()
         {
             Paquete p = new Paquete("san martin 3561", "123456");
@@ -18,17 +18,23 @@ namespace TestUnitario
             {
                 Assert.Fail("No se encontro el archivo con los datos del paquete.");
             }
-        }
+        }*/
 
+        /// <summary>
+        /// Test para verificar si la instancia de la lista de paquetes de correos es nula.
+        /// </summary>
         [TestMethod]
         public void VerificarInstanciaPaquete()
         {
             Correo correo = new Correo();
 
             if (correo.Paquetes == null)
-                Assert.Fail("La instancia del paquete es null");
+                Assert.Fail("La instancia del paquete es null.");
         }
 
+        /// <summary>
+        /// Test para verificar si se lanza una excepcion para los paquetes con mismo Tracking ID.
+        /// </summary>
         [TestMethod]
         public void VerificarPaquetesConIgualTrackingId()
         {

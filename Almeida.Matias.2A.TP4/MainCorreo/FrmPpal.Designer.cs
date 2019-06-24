@@ -40,15 +40,15 @@
             this.lstEstadoEnViaje = new System.Windows.Forms.ListBox();
             this.lstEstadoIngresado = new System.Windows.Forms.ListBox();
             this.lstEstadoEntregado = new System.Windows.Forms.ListBox();
+            this.cmsListas = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.mtxtTrackingID = new System.Windows.Forms.MaskedTextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.rtbMostrar = new System.Windows.Forms.RichTextBox();
-            this.cmsListas = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.cmsListas.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAgregar
@@ -56,7 +56,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(160, 20);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(93, 30);
-            this.btnAgregar.TabIndex = 0;
+            this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "&Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -66,7 +66,7 @@
             this.btnMostrarTodos.Location = new System.Drawing.Point(160, 60);
             this.btnMostrarTodos.Name = "btnMostrarTodos";
             this.btnMostrarTodos.Size = new System.Drawing.Size(93, 30);
-            this.btnMostrarTodos.TabIndex = 1;
+            this.btnMostrarTodos.TabIndex = 3;
             this.btnMostrarTodos.Text = "&Mostrar Todos";
             this.btnMostrarTodos.UseVisualStyleBackColor = true;
             this.btnMostrarTodos.Click += new System.EventHandler(this.btnMostrarTodos_Click);
@@ -138,6 +138,7 @@
             this.lstEstadoEnViaje.Name = "lstEstadoEnViaje";
             this.lstEstadoEnViaje.Size = new System.Drawing.Size(192, 186);
             this.lstEstadoEnViaje.TabIndex = 11;
+            this.lstEstadoEnViaje.TabStop = false;
             // 
             // lstEstadoIngresado
             // 
@@ -146,6 +147,7 @@
             this.lstEstadoIngresado.Name = "lstEstadoIngresado";
             this.lstEstadoIngresado.Size = new System.Drawing.Size(192, 186);
             this.lstEstadoIngresado.TabIndex = 12;
+            this.lstEstadoIngresado.TabStop = false;
             // 
             // lstEstadoEntregado
             // 
@@ -155,6 +157,21 @@
             this.lstEstadoEntregado.Name = "lstEstadoEntregado";
             this.lstEstadoEntregado.Size = new System.Drawing.Size(192, 186);
             this.lstEstadoEntregado.TabIndex = 10;
+            this.lstEstadoEntregado.TabStop = false;
+            // 
+            // cmsListas
+            // 
+            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarToolStripMenuItem});
+            this.cmsListas.Name = "cmsListas";
+            this.cmsListas.Size = new System.Drawing.Size(125, 26);
+            // 
+            // mostrarToolStripMenuItem
+            // 
+            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.mostrarToolStripMenuItem.Text = "Mostrar...";
+            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
             // groupBox2
             // 
@@ -177,7 +194,7 @@
             this.mtxtTrackingID.Mask = "999-999-9999";
             this.mtxtTrackingID.Name = "mtxtTrackingID";
             this.mtxtTrackingID.Size = new System.Drawing.Size(138, 20);
-            this.mtxtTrackingID.TabIndex = 14;
+            this.mtxtTrackingID.TabIndex = 0;
             this.mtxtTrackingID.ValidatingType = typeof(int);
             // 
             // txtDireccion
@@ -185,7 +202,7 @@
             this.txtDireccion.Location = new System.Drawing.Point(16, 70);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(138, 20);
-            this.txtDireccion.TabIndex = 16;
+            this.txtDireccion.TabIndex = 1;
             // 
             // rtbMostrar
             // 
@@ -193,21 +210,8 @@
             this.rtbMostrar.Name = "rtbMostrar";
             this.rtbMostrar.Size = new System.Drawing.Size(383, 108);
             this.rtbMostrar.TabIndex = 15;
+            this.rtbMostrar.TabStop = false;
             this.rtbMostrar.Text = "";
-            // 
-            // cmsListas
-            // 
-            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mostrarToolStripMenuItem});
-            this.cmsListas.Name = "cmsListas";
-            this.cmsListas.Size = new System.Drawing.Size(125, 26);
-            // 
-            // mostrarToolStripMenuItem
-            // 
-            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
-            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.mostrarToolStripMenuItem.Text = "Mostrar...";
-            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
             // FrmPpal
             // 
@@ -225,9 +229,9 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPpal_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.cmsListas.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.cmsListas.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

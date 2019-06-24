@@ -13,13 +13,20 @@ namespace MainCorreo
 {
     public partial class FrmPpal : Form
     {
-        private Correo correo = new Correo();
+        private Correo correo;
         
+        /// <summary>
+        /// Constructor del formulario.
+        /// </summary>
         public FrmPpal()
         {
-            InitializeComponent();           
+            InitializeComponent();
+            this.correo = new Correo();
         }
 
+        /// <summary>
+        /// Metodo que actualiza el estado del paquete.
+        /// </summary>
         private void ActualizarEstados()
         {
             this.lstEstadoIngresado.Items.Clear();
@@ -45,6 +52,12 @@ namespace MainCorreo
             }
         }
 
+        /// <summary>
+        /// Muestra la informacion del paquete en el richTextBox y lo guarda en un archivo de texto
+        /// en el escritorio.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="elemento"></param>
         private void MostrarInformacion<T>(IMostrar<T> elemento)
         {
             if(elemento != null)
@@ -62,6 +75,11 @@ namespace MainCorreo
             }
         }
 
+        /// <summary>
+        /// Evento que agrega paquetes a las listas.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Paquete nuevoPaquete = new Paquete(this.txtDireccion.Text, this.mtxtTrackingID.Text);
@@ -81,21 +99,42 @@ namespace MainCorreo
             }
         }
 
+        /// <summary>
+        /// Evento que muestra el paquete en el richTextBox y su estado actual.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnMostrarTodos_Click(object sender, EventArgs e)
         {
             this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
         }
 
+        /// <summary>
+        /// Evento que llama al metodo FinEntrega().
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.correo.FinEntrega();
         }
 
+        /// <summary>
+        /// Evento que permite abrir un ToolStripMenuItem para los paquetes en estado Entregado y
+        /// mostrar sus datos en el richTextBox.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.MostrarInformacion<Paquete>((IMostrar<Paquete>)this.lstEstadoEntregado.SelectedItem);
         }
 
+        /// <summary>
+        /// Manejador de evento para el evento InformaEstado.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void paq_InformaEstado(object sender, EventArgs e)
         {
             if (this.InvokeRequired)

@@ -9,6 +9,12 @@ namespace Entidades
 {
     public static class GuardaString
     {
+        /// <summary>
+        /// Guarda los datos de el o los paquetes en un arhivo de texto en el escritorio.
+        /// </summary>
+        /// <param name="texto"></param>
+        /// <param name="archivo"></param>
+        /// <returns></returns>
         public static bool Guardar(this string texto, string archivo)
         {
             bool flag = false;
