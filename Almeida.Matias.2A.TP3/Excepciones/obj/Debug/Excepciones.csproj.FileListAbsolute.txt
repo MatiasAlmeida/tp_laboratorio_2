@@ -1,6 +1,0 @@
-C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
-C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
-C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
-C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
-C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
-C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb

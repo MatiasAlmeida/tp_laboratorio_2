@@ -42,10 +42,10 @@ namespace MiCalculadora
 
         private void Limpiar()
         {
-            this.txtNumero1.Text = "";
-            this.txtNumero2.Text = "";
-            this.cmbOperador.Text = "";
-            this.lblResultado.Text = "";
+            this.txtNumero1.Clear();
+            this.txtNumero2.Clear();
+            this.cmbOperador.ResetText();
+            this.lblResultado.ResetText();
         }
 
         private static double Operar(string numero1, string numero2, string operador)

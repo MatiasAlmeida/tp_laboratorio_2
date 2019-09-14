@@ -24,3 +24,16 @@ C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_lab
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\TrabajoPractico_01\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\TrabajoPractico_01\MiCalculadora\obj\Debug\MiCalculadora.exe
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\TrabajoPractico_01\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb

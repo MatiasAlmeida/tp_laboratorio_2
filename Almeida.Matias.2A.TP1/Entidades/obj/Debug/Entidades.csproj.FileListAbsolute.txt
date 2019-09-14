@@ -10,3 +10,9 @@ C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_lab
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\TrabajoPractico_01\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\TrabajoPractico_01\Entidades\obj\Debug\Entidades.dll
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\TrabajoPractico_01\Entidades\obj\Debug\Entidades.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\Entidades\bin\Debug\Entidades.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\Entidades\obj\Debug\Entidades.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\TP N°1\Almeida.Matias.2A.TP1\Entidades\obj\Debug\Entidades.pdb
