@@ -1,0 +1,32 @@
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.csprojAssemblyReference.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Main.exe.config
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Main.exe
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Main.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Archivos.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Clases Abstractas.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Clases Instanciables.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Excepciones.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Archivos.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Clases Abstractas.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Clases Instanciables.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\bin\Debug\Excepciones.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.csproj.CopyComplete
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.exe
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Main.exe.config
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Main.exe
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Main.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Archivos.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Clases Abstractas.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Clases Instanciables.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Excepciones.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Archivos.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Clases Abstractas.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Clases Instanciables.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\bin\Debug\Excepciones.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.csprojAssemblyReference.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.csproj.CopyComplete
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.exe
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Main\obj\Debug\Main.pdb
