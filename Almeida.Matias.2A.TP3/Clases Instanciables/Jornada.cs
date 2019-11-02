@@ -97,19 +97,13 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static Jornada operator +(Jornada j, Alumno a)
         {
-            bool flag = false;
-
             foreach(Alumno item in j.Alumnos)
             {
                 if(j == a && item == a)
-                {
-                    flag = true;
-                    break;
-                }
+                    return j;
             }
 
-            if (!flag)
-                j.Alumnos.Add(a);
+            j.Alumnos.Add(a);
 
             return j;
         }
@@ -132,10 +126,10 @@ namespace EntidadesInstanciables
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat("CLASE DE {0} POR {1}", this.Clase.ToString(), this.Instructor.ToString());
             sb.AppendLine("ALUMNOS:");
+
             foreach (Alumno item in this.Alumnos)
-            {
                 sb.AppendLine(item.ToString());               
-            }
+
             sb.AppendLine("<----------------------------------------------------->");
 
             return sb.ToString();

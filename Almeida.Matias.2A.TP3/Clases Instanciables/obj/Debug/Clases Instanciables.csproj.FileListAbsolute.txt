@@ -24,3 +24,16 @@ C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
 C:\Users\mati_\Desktop\Programacion II - Clases y contenido\Trabajos Prácticos\TPs Nuevos\Almeida.Matias.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\bin\Debug\Archivos.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\mati_\Desktop\Programacion II - Clases y contenido\MiRepositorio\tp_laboratorio_2\Almeida.Matias.2A.TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb

@@ -17,7 +17,7 @@ namespace EntidadesAbstractas
         /// <returns></returns>
         public override bool Equals(object obj)
         {
-            return obj is Universitario;
+            return obj is Universitario && (((Universitario)obj).DNI == this.DNI || ((Universitario)obj).legajo == this.legajo);
         }
         /// <summary>
         /// Metodo virtual que devuelve los dato de Universitario.
@@ -43,7 +43,7 @@ namespace EntidadesAbstractas
         /// <returns></returns>
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
-            return pg1.Equals(pg2) && (pg1.DNI == pg2.DNI || pg1.legajo == pg2.legajo);
+            return pg1.Equals(pg2);
         }
         /// <summary>
         /// Sobrecarga del operador != que devuelve un booleano.

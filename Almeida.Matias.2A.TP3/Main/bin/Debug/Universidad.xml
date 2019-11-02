@@ -76,28 +76,5 @@
         <Nombre>Roberto</Nombre>
       </Instructor>
     </Jornada>
-    <Jornada>
-      <Alumnos>
-        <Alumno>
-          <Apellido>Hernandez</Apellido>
-          <DNI>92264456</DNI>
-          <Nacionalidad>Extranjero</Nacionalidad>
-          <Nombre>Miguel</Nombre>
-        </Alumno>
-        <Alumno>
-          <Apellido>Smith</Apellido>
-          <DNI>22236456</DNI>
-          <Nacionalidad>Argentino</Nacionalidad>
-          <Nombre>Rodrigo</Nombre>
-        </Alumno>
-      </Alumnos>
-      <Clase>Legislacion</Clase>
-      <Instructor>
-        <Apellido>Juarez</Apellido>
-        <DNI>32234456</DNI>
-        <Nacionalidad>Argentino</Nacionalidad>
-        <Nombre>Roberto</Nombre>
-      </Instructor>
-    </Jornada>
   </Jornadas>
 </Universidad>

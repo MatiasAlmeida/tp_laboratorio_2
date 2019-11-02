@@ -85,10 +85,9 @@ namespace EntidadesInstanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("CLASES DEL DIA:");
+
             foreach (Universidad.EClases item in clasesDelDia)
-            {
                 sb.AppendLine(item.ToString());
-            }
 
             return sb.ToString();
         }
