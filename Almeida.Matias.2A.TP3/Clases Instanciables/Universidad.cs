@@ -126,18 +126,13 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static Profesor operator !=(Universidad u, Universidad.EClases clase)
         {
-            Profesor p = null;
-
             foreach (Profesor item in u.Instructores)
             {
                 if(item != clase)
-                {
-                    p = item;
-                    break;
-                }
+                    return item;
             }
 
-            return p;
+            return null;
         }
         /// <summary>
         /// Sobrecarga del operador + para Universidad.
@@ -196,17 +191,13 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static bool operator ==(Universidad g, Alumno a)
         {
-            bool flag = false;
             foreach (Profesor item in g.Instructores)
             {
                 if (item == a)
-                {
-                    flag = true;
-                    break;
-                }
+                    return true;
             }
 
-            return flag;
+            return false;
         }
         /// <summary>
         /// Sobrecarga del operador + para Universidad.
@@ -258,20 +249,15 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static Profesor operator ==(Universidad u, Universidad.EClases clase)
         {
-            Profesor p = null;
-
             foreach(Profesor item in u.Instructores)
             {
                 if(item == clase)
-                {
-                    p = item;
-                    break;
-                }
+                    return item;
                 else
                     throw new SinProfesorException();
             }
 
-            return p;
+            return null;
         }
         /// <summary>
         /// Override del metodo ToString() para mostrar los datos de la universidad.

@@ -56,19 +56,19 @@
     <Jornada>
       <Alumnos>
         <Alumno>
-          <Apellido>Lopez</Apellido>
-          <DNI>12234456</DNI>
-          <Nacionalidad>Argentino</Nacionalidad>
-          <Nombre>Juan</Nombre>
+          <Apellido>Hernandez</Apellido>
+          <DNI>92264456</DNI>
+          <Nacionalidad>Extranjero</Nacionalidad>
+          <Nombre>Miguel</Nombre>
         </Alumno>
         <Alumno>
-          <Apellido>Gonzalez</Apellido>
-          <DNI>12236456</DNI>
+          <Apellido>Smith</Apellido>
+          <DNI>22236456</DNI>
           <Nacionalidad>Argentino</Nacionalidad>
-          <Nombre>Carlos</Nombre>
+          <Nombre>Rodrigo</Nombre>
         </Alumno>
       </Alumnos>
-      <Clase>Programacion</Clase>
+      <Clase>Legislacion</Clase>
       <Instructor>
         <Apellido>Juarez</Apellido>
         <DNI>32234456</DNI>

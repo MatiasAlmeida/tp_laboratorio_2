@@ -54,18 +54,13 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static bool operator ==(Profesor i, Universidad.EClases clase)
         {
-            bool flag = false;
-
             foreach(Universidad.EClases item in i.clasesDelDia)
             {
                 if(item == clase)
-                {
-                    flag = true;
-                    break;
-                }
+                    return true;
             }
 
-            return flag;
+            return false;
         }
         /// <summary>
         /// Sobrecarga del operador != para Profesor.
