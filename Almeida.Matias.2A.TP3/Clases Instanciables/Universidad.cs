@@ -191,7 +191,9 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static bool operator ==(Universidad g, Alumno a)
         {
-            foreach (Profesor item in g.Instructores)
+            //Si lo cambiamos por alumno, como deberia ser, me arroja la Excepcion de Alumno repetido
+            //debido a que en el Main agregaron a Lopez Juan primero como alumno y despues como profesor.
+            foreach (Alumno item in g.Alumnos)
             {
                 if (item == a)
                     return true;
@@ -220,26 +222,10 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static bool operator ==(Universidad g, Profesor i)
         {
-            bool flag = false;
-            foreach (Profesor item in g.Instructores)
-            {
-                if (item == i)
-                {
-                    flag = true;
-                    break;
-                }
-            }
+            if (g.Instructores.Contains(i) || g.Alumnos.Contains((EntidadesAbstractas.Universitario)i))
+                return true;
 
-            foreach (Alumno item in g.Alumnos)
-            {
-                if (item == i)
-                {
-                    flag = true;
-                    break;
-                }
-            }
-
-            return flag;
+            return false;
         }
         /// <summary>
         /// Sobrecarga del operador == para Universidad.
