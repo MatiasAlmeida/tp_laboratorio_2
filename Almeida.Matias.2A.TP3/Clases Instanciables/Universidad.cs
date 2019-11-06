@@ -222,8 +222,20 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static bool operator ==(Universidad g, Profesor i)
         {
-            if (g.Instructores.Contains(i) || g.Alumnos.Contains((EntidadesAbstractas.Universitario)i))
-                return true;
+            foreach (Profesor item in g.Instructores)
+            {
+                if (item == i)
+                    return true;
+            }
+
+            foreach (Alumno item in g.Alumnos)
+            {
+                if (item == i)
+                    return true;
+            }
+
+            /*if (g.Instructores.Contains(i) || g.Alumnos.Contains((EntidadesAbstractas.Universitario)i))
+                return true;*/
 
             return false;
         }
