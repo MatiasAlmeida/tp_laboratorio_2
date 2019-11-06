@@ -227,7 +227,8 @@ namespace EntidadesInstanciables
                 if (item == i)
                     return true;
             }
-
+            
+            //Sin este foreach, Lopez Juan ingresa tanto como alumno como profesor.
             foreach (Alumno item in g.Alumnos)
             {
                 if (item == i)
