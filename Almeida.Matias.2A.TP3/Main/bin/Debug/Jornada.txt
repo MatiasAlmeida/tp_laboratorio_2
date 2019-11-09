@@ -1,24 +1,24 @@
-CLASE DE Legislacion POR NOMBRE COMPLETO: Juarez, Roberto
+CLASE DE Programacion POR NOMBRE COMPLETO: Juarez, Roberto
 NACIONALIDAD: Argentino
 
 LEGAJO NÚMERO: 2
 CLASES DEL DIA:
-Legislacion
-Legislacion
+Programacion
+Laboratorio
 
 ALUMNOS:
-NOMBRE COMPLETO: Hernandez, Miguel
-NACIONALIDAD: Extranjero
-
-LEGAJO NÚMERO: 4
-
-ESTADO DE CUENTA: Cuota al día
-TOMA CLASES DE Legislacion
-NOMBRE COMPLETO: Smith, Rodrigo
+NOMBRE COMPLETO: Lopez, Juan
 NACIONALIDAD: Argentino
 
-LEGAJO NÚMERO: 8
+LEGAJO NÚMERO: 1
+
+ESTADO DE CUENTA: Está becado
+TOMA CLASES DE Programacion
+NOMBRE COMPLETO: Gonzalez, Carlos
+NACIONALIDAD: Argentino
+
+LEGAJO NÚMERO: 5
 
 ESTADO DE CUENTA: Cuota al día
-TOMA CLASES DE Legislacion
+TOMA CLASES DE Programacion
 <----------------------------------------------------->

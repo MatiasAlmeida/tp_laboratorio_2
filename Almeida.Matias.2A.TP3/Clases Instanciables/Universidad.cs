@@ -144,8 +144,10 @@ namespace EntidadesInstanciables
         {
             Profesor p = g == clase;
 
-            if(p != null)
+            if (!Object.Equals(p,null))
                 g.Jornadas.Add(new Jornada(clase, p));
+            else
+                return g;
 
             foreach(Alumno item in g.Alumnos)
             {
@@ -229,11 +231,11 @@ namespace EntidadesInstanciables
             }
             
             //Sin este foreach, Lopez Juan ingresa tanto como alumno como profesor.
-            foreach (Alumno item in g.Alumnos)
+            /*foreach (Alumno item in g.Alumnos)
             {
                 if (item == i)
                     return true;
-            }
+            }*/
 
             /*if (g.Instructores.Contains(i) || g.Alumnos.Contains((EntidadesAbstractas.Universitario)i))
                 return true;*/
@@ -248,13 +250,13 @@ namespace EntidadesInstanciables
         /// <returns></returns>
         public static Profesor operator ==(Universidad u, Universidad.EClases clase)
         {
-            foreach(Profesor item in u.Instructores)
+            foreach (Profesor item in u.Instructores)
             {
-                if(item == clase)
+                if (item == clase)
                     return item;
                 else
                     throw new SinProfesorException();
-            }
+            }             
 
             return null;
         }
